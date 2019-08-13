@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*  CSS AFGEWERKTE VERSIE VAN JS FOTOLAB EINDTEST
+    GEBRUIK STARTBESTAND VERSIE OM AAN CURSISTEN TE GEVEN
+*/
+
+
+html, body {
+    height: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+}
+
+/*******************LAYOUT*******************/
+
+h1 {
+    visibility: hidden;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#kop {
+    height: 165px;
+    padding: 1em;
+    background-image: url(img/fotolab.jpg);
+    background-repeat: no-repeat;
+}
+
+#midden {
+    padding: 0 1em;
+    margin-bottom: 25px;
+}
+
+#voet {
+    bottom: 0;
+    width: 800px;
+    background: #106bbe;
+    text-align: center;
+    color: #ffffff;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+
+/*******************WINKELMANDJE MET TABLE *******************/
+
+#winkelmandje {
+    width: 90%;
+    margin-top: 25px;
+}
+
+#winkelmandje h2 {
+    font-size: 1em;
+    padding: 1em;
+    margin: 0;
+    background-color: #3d86c1;
+    color: white;
+}
+
+#containermand {
+    width: 100%;
+    background-color: #EEE;
+    border-top: 1px solid gray;
+    color: black;
+    padding: 0.6em 0;
+}
+
+#containermand p {
+    margin-left: 1em;
+}
+
+
+
+
+/*******************FORM*******************/
+form {
+    width: 520px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+fieldset {
+    margin-bottom: 1em;
+    border: 1px solid #CCC;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    width: 120px;
+    text-align: left;
+    float: left;
+    padding-right: 10px;
+    margin: 5px 0;
+}
+
+label#fotorij {
+    width: 600px;
+}
+
+#fotorij > input {
+    margin-right: 25px;
+}
+
+.foto {
+    border: 1px solid grey;
+    background-color: #ffffff;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    margin: 5px 0;
+    width: 200px;
+}
+
+/*******************FOUTEN CONTAINER*******************/
+/*
+ul.fouten {
+	display:inline-block;
+	list-style-type:none;
+	font-size:0.9em;
+	padding:3px;
+	margin: 3px 0;
+}
+	
+ul.fouten li {
+	color:red;
+}
+*/
+
+/*******************TABEL OPMAAK*******************/
+
+table {
+    width: 100%;
+}
+
+tr > th, tr > td {
+    width: 10%;
+    text-align: right;
+}
+
+.thformaat {
+    width: 15%;
+}	
+
+.eindtotaal {
+    background-color: #3d86c1;
+    font-weight: bold;
+    padding: 1em 0;
+}

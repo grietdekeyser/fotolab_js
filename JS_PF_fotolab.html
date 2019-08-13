@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS PF Eindoefening</title>
+<link rel="stylesheet" href="JS_PF_fotolab.css" />
+<script type="text/javascript" src="JS_PF_fotolab.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="kop">
+    <h1>JS PF fotolab</h1>
+  </div>
+  <div id="midden">
+    <p>Bestel nu, geleverd binnen het uur!</p>
+    <h2>Bestelformulier</h2>
+    <form id="frmBestel" name="frmBestel">
+      <p>
+        <label id="fotorij" for="fotorij">
+          <img class="foto" src="img/th_woman1.png"  title="th_woman1.png">
+          <input type="radio" id="foto1" name="foto" checked="checked" value="img/th_woman1.png" />  
+          <img class="foto" src="img/th_woman2.png" title="th_woman2.png">
+          <input type="radio" id="foto2" name="foto" value="img/th_woman2.png" />  
+          <img class="foto" src="img/th_man1.png" title="th_man1.png">
+          <input type="radio" id="foto3" name="foto" value="img/th_man1.png" />  
+          <img class="foto" src="img/th_woman3.png"  title="th_woman3.png">
+          <input type="radio" id="foto4" name="foto" value="img/th_woman3.png" />  
+          <img class="foto" src="img/th_man2.png" title="th_man2.png">
+          <input type="radio" id="foto5" name="foto" value="img/th_man2.png" />  
+          <img class="foto" src="img/th_man3.png" title="th_man3.png">
+          <input type="radio" id="foto6" name="foto" value="img/th_man3.png" />  
+        </label>
+      </p>    
+      <p>
+        <label for="kleur">kies kleur</label>
+        <select name="kleur" id="kleur">
+          <option value="">--- kies een kleur ---</option>
+        </select>
+      </p>
+      <p>
+        <label for="formaat">kies formaat</label>
+        <select name="formaat" id="formaat">
+          <option  value="">--- kies het formaat ---</option>
+        </select>
+      </p>
+      <p>
+        <label for="afwerking">kies afwerking</label>
+        <select name="afwerking" id="afwerking">
+          <option value="">--- kies een afwerking ---</option>
+        </select>
+      </p>
+      <p>
+        <label for="aantal">aantal</label>
+        <input name="aantal" id="aantal" type="text" size="8" />
+      </p>      
+      <p>
+        <button type="button" id="toevoegen">in mijn mandje</button>
+      </p>
+    </form>
+
+    <div id="winkelmandje">
+      <h2>Winkelmandje</h2>
+      <div id="containermand">
+        <p>mijn mandje is leeg</p>
+      </div>
+
+    </div>
+  </div>
+  <div id="voet">Dit is een oefening voor de basisopleiding ICT ontwikkeling - VDAB | 2016</div>
+</div>
+</body>
+</html>
